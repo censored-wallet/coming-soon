@@ -16,6 +16,7 @@ export default function Header({ title }) {
         collect evidence, collaborate for compliance, combat crime, and ensure a
         secure web3 world.
       </p>
+
       <h4>Open Source Red Wallet </h4>
       <h4>Methodology</h4>
       <p>
@@ -27,7 +28,7 @@ export default function Header({ title }) {
         <ul>
           <li>U.S. DEPARTMENT OF THE TREASURY OFAC sanctioned list</li>
           <li>Israeli Government identified donation address</li>
-          <li>Partnerned with Indian LEAs</li>
+          <li>Partnerned with Indian LEA</li>
           <li>Milestone of 1,30,560 Red Wallets</li>
         </ul>
       </p>
