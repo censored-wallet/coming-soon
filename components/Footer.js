@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Open Source Red Wallet Initative. Write at contact@redwallet.info
+        write us at hello@redwallet.info
       </footer>
     </>
   );

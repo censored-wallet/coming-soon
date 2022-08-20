@@ -11,12 +11,12 @@ body {
 }
 
 main {
-  padding: 2rem 20px;
+  padding: 1rem 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  max-width: 60ch;
+  max-width: 80ch;
 }
 
 hr {

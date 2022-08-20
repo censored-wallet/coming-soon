@@ -15,9 +15,9 @@ export default function Home() {
         <Header title="What is Red Wallet?" />
         <hr />
         <p className="description">
-          Interested in Red Wallet database access, collaboration, donation,
-          monitoring requests, or partnerships, among other things? Feel free to
-          communicate with us.
+          Interested in integrating Red Wallet database to your application or
+          collaboration, compliance, monitoring requests, partnerships or
+          donation among other things? Feel free to communicate with us.
         </p>
         <FeedbackForm />
       </main>
