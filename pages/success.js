@@ -14,11 +14,13 @@ export default function Success() {
       <main>
         <h1>Submission Received!</h1>
         <p>
-          Thank you for your feedback! Head back to the{" "}
-          <Link href="/">
-            <a>home page</a>
-          </Link>
-          .
+          Thank you for writing to us! We shall review your mail and get back to
+          you as earlier possible.{" "}
+        </p>
+
+        <p>
+          For urgent matter please write to censor@redwallet.in or
+          support@redwallet.in{" "}
         </p>
       </main>
 

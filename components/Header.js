@@ -10,7 +10,7 @@ export default function Header({ title }) {
       </h2>
       <h4>Problem Statement</h4>
       <p>
-        More than 400 million wallets involving bitcoin, ethereum, USDT, and
+        More than 392 million wallets involving bitcoin, ethereum, USDT, and
         other active cryptocurrencies have been detected on the blockchain. Due
         to the anonymity of wallets, it becomes challenging to investigate,
         collect evidence, collaborate for compliance, combat crime, and ensure a
@@ -24,23 +24,25 @@ export default function Header({ title }) {
         investigations and liaising with exchanges to identify persons involved,
         recover assets, and collaborate to further investigations. Further, it
         turned into an Open Source initiative to make it simple for web3
-        industry participants to remain compliant and for investigations to
-        cooperate with each other without legal cross-border complications and
-        bureaucratic procedures.
+        stakeholder compliance and global LEA to investigate beyond borders and
+        cooperate without legal cross-border complications and bureaucratic
+        procedures.
       </p>
       <h4>Methodology</h4>
       <p>
-        OSRW Initiative relies on data provided by various LEA and private
-        investigators active globally. Data collected is hosted on blockchain
-        for access, transperency and auditability. Our partners provide us
-        "Wallet address", "Cryptocurrency", "Chain", "Contributed By", "Wallet
-        Notes", "Wallet Status" and "Added On" information which is accessible
-        via smart contract and standard APIs.
+        OSRW Initiative relies on data provided by various LEA, published by
+        government, identified by subject matter experts and private
+        investigators active globally. Majority of red wallets data is hosted on
+        blockchain and accessible via DApp for open access, transperency and
+        auditability. Our partners contributes for collabration and compliance
+        which is not limited to "Wallet address", "Cryptocurrency", "Chain",
+        "Contributed By", "Wallet Notes", "Wallet Status" and "Added On"
+        information which is accessible via smart contract and standard APIs.
       </p>
       <h4>Response Sample</h4>
       <p>
         <i></i>
-        <ol>
+        <ul>
           <li>"uuid": "2b4840e4-206c-11ed-861d-0242ac120002",</li>
           <li>"walletAddress": "17drWwzBC1znSQAZmu5iKsxNuTvFfMFxRM",</li>
           <li>"cryptocurrency": "bitcoin",</li>
@@ -51,7 +53,7 @@ export default function Header({ title }) {
           </li>
           <li>"walletStatus": "Confisticated",</li>
           <li>"addedOn": "07/03/2022"</li>
-        </ol>
+        </ul>
       </p>
       <h4>Traction</h4>
       <p>

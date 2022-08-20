@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        write us at hello@redwallet.info
+        <a href="mailto:hello@redwallet.info">hello@redwallet.info</a>
       </footer>
     </>
   );
