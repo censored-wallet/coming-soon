@@ -67,7 +67,7 @@ export default function Header({ title }) {
         </ul>
       </p>
       <h4>Partners</h4>
-      <div style={{ display: 'flex', flexWrap: 'wrap', border: '1px solid red' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap'}}>
         <div>
           <img src="partner/anq-finance.png"  alt="anq-finance" style={styles.imageSize}/>
         </div>
