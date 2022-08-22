@@ -102,6 +102,6 @@ export default function Header({ title }) {
 
 const styles = {
   imageSize:{
-    width:'100%', height:'auto', maxWidth:'140px', margin:10
+    width:'100%', height:'auto', maxWidth:'140px', margin:15
   }
 }
