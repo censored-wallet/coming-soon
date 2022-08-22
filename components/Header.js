@@ -67,7 +67,7 @@ export default function Header({ title }) {
         </ul>
       </p>
       <h4>Partners</h4>
-      <div style={{ display: 'flex', flexWrap: 'wrap'}}>
+      {/* <div style={{ display: 'flex', flexWrap: 'wrap'}}>
         <div>
           <img src="partner/anq-finance.png"  alt="anq-finance" style={styles.imageSize}/>
         </div>
@@ -94,14 +94,16 @@ export default function Header({ title }) {
         </div>
 
 
-      </div>
-
+      </div> */}
     </>
   );
 }
 
 const styles = {
-  imageSize:{
-    width:'100%', height:'auto', maxWidth:'140px', margin:15
-  }
-}
+  imageSize: {
+    width: "100%",
+    height: "auto",
+    maxWidth: "140px",
+    margin: 15,
+  },
+};

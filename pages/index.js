@@ -7,13 +7,20 @@ export default function Home() {
   return (
     <div className="container">
       <main>
-            <Head>
-        <title>Red Wallet - Open Source Red Wallets</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <img src="./red-wallet-logo.png" alt="red-wallet-logo" 
-      style={{width:'100%', height:'auto', maxWidth:'180px', marginBottom: 20}}
-      />
+        <Head>
+          <title>Red Wallet - Open Source Red Wallets</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <img
+          src="./red-wallet-logo.png"
+          alt="red-wallet-logo"
+          style={{
+            width: "80%",
+            height: "auto",
+            maxWidth: "150px",
+            marginBottom: 20,
+          }}
+        />
         <Header title="What is Red Wallet?" />
         <hr />
         <p className="description">
