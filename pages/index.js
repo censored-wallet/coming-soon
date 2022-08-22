@@ -6,12 +6,14 @@ import FeedbackForm from "@components/FeedbackForm";
 export default function Home() {
   return (
     <div className="container">
-      <Head>
+      <main>
+            <Head>
         <title>Red Wallet - Open Source Red Wallets</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
+      <img src="./red-wallet-logo.png" alt="red-wallet-logo" 
+      style={{width:'100%', height:'auto', maxWidth:'180px', marginBottom: 20}}
+      />
         <Header title="What is Red Wallet?" />
         <hr />
         <p className="description">
