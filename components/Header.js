@@ -5,8 +5,8 @@ export default function Header({ title }) {
       <h2>
         Open Source database of web3 wallets that have been sanctioned or
         identified by LEA during investigations around the world and are tied to
-        illegal activities such as money laundering, hacking, drug trafficking,
-        CSAM, scams, fraud and other illicit activities.
+        illegal activities such as money laundering, hacker groups, drug
+        trafficking, CSAM, scams, fraud, and other illicit activities.
       </h2>
       <h4>Problem Statement</h4>
       <p>
@@ -17,13 +17,13 @@ export default function Header({ title }) {
         secure web3 world.
       </p>
 
-      <h4>OSRW Intiative </h4>
+      <h4>OSRW Initiative</h4>
       <p>
         The Red Wallet effort was established primarily by forensic
         professionals supporting law enforcement agencies with cryptocurrency
         investigations and liaising with exchanges to identify persons involved,
         recover assets, and collaborate to further investigations. Further, it
-        turned into an Open Source initiative to make it simple for web3
+        turned into an Open Source Initiative to make it simple for web3
         stakeholder compliance and global LEA to investigate beyond borders and
         cooperate without legal cross-border complications and bureaucratic
         procedures.
@@ -35,9 +35,10 @@ export default function Header({ title }) {
         investigators active globally. Majority of red wallets data is hosted on
         blockchain and accessible via DApp for open access, transperency and
         auditability. Our partners contributes for collabration and compliance
-        which is not limited to "Wallet address", "Cryptocurrency", "Chain",
-        "Contributed By", "Wallet Notes", "Wallet Status" and "Added On"
-        information which is accessible via smart contract and standard APIs.
+        which is not limited to "Wallet address", "Cryptocurrency",
+        "Chain","Risk Type" "Contributed By", "Wallet Notes", "Wallet Status"
+        and "Added On" information which is accessible via smart contract and
+        standard APIs.
       </p>
       <h4>Response Sample</h4>
       <p>
@@ -47,6 +48,7 @@ export default function Header({ title }) {
           <li>"walletAddress": "17drWwzBC1znSQAZmu5iKsxNuTvFfMFxRM",</li>
           <li>"cryptocurrency": "bitcoin",</li>
           <li>"chain": "BTC",</li>
+          <li>"riskType: "Terrorism Funding",</li>
           <li>"contributedBy": "Ministry of Defence",</li>
           <li>
             "walletNotes": "Benjamin Grantz, Associated with Terrorism funding",
@@ -61,10 +63,10 @@ export default function Header({ title }) {
           <li>U.S. Department Of The Treasury OFAC sanctioned list</li>
           <li>Israeli Government identified donation address</li>
           <li>Partnerned with Indian LEA</li>
-          <li>Milestone of 1,30,560 Red Wallets</li>
+          <li>Milestone of 1,30,860+ Red Wallets</li>
         </ul>
       </p>
-      <h4>Roadmap</h4>
+      <h4>Partners</h4>
     </>
   );
 }
