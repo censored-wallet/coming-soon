@@ -67,6 +67,41 @@ export default function Header({ title }) {
         </ul>
       </p>
       <h4>Partners</h4>
+      <div style={{ display: 'flex', flexWrap: 'wrap', border: '1px solid red' }}>
+        <div>
+          <img src="partner/anq-finance.png"  alt="anq-finance" style={styles.imageSize}/>
+        </div>
+        <div>
+          <img src="partner/Bitbns.png" alt="anq-finance" style={styles.imageSize} />
+        </div>
+        <div>
+          <img src="partner/coinswitch.png" alt="coinswitch" style={styles.imageSize} />
+        </div>
+        <div>
+          <img src="partner/fibitpro.png" alt="fibitpro" style={styles.imageSize} />
+        </div>
+        <div>
+          <img src="partner/Gitottus.png" alt="Gitottus" style={styles.imageSize} />
+        </div>
+        <div>
+          <img src="partner/unocoin.png" alt="unocoin" style={styles.imageSize} />
+        </div>
+        <div>
+          <img src="partner/WazirX.png" alt="WazirX" style={styles.imageSize} />
+        </div>
+        <div>
+          <img src="partner/zebpay.png" alt="anq-zebpay" style={styles.imageSize} />
+        </div>
+
+
+      </div>
+
     </>
   );
+}
+
+const styles = {
+  imageSize:{
+    width:'100%', height:'auto', maxWidth:'140px', margin:10
+  }
 }
