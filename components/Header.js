@@ -45,28 +45,22 @@ export default function Header({ title }) {
         <i></i>
         <ul>
           <li>"uuid": "2b4840e4-206c-11ed-861d-0242ac120002",</li>
-          <li>"walletAddress": "17drWwzBC1znSQAZmu5iKsxNuTvFfMFxRM",</li>
+          <li>"walletAddress": "1Q9oBXQiWLsiDVFNGvnSU1UAJuTADk75Jq",</li>
           <li>"cryptocurrency": "bitcoin",</li>
           <li>"chain": "BTC",</li>
-          <li>"riskType: "Terrorism Funding",</li>
-          <li>"contributedBy": "Ministry of Defence",</li>
+          <li>"riskType: "MLM Scam",</li>
+          <li>"contributedBy": "Department of Police",</li>
           <li>
-            "walletNotes": "Benjamin Grantz, Associated with Terrorism funding",
+            "walletNotes": "Proceeds of Crime for Chitalsar Police Station CR
+            231/2022 Crime Unit-1",
           </li>
-          <li>"walletStatus": "Confisticated",</li>
-          <li>"addedOn": "07/03/2022"</li>
+          <li>"walletStatus": "Monitoring",</li>
+          <li>"addedOn": "07/09/2022"</li>
         </ul>
       </p>
-      <h4>Traction</h4>
-      <p>
-        <ul>
-          <li>U.S. Department Of The Treasury OFAC sanctioned list</li>
-          <li>Israeli Government identified donation address</li>
-          <li>Partnerned with Indian LEA</li>
-          <li>Milestone of 1,30,860+ Red Wallets</li>
-        </ul>
-      </p>
+
       <h4>Partners</h4>
+
       {/* <div style={{ display: 'flex', flexWrap: 'wrap'}}>
         <div>
           <img src="partner/anq-finance.png"  alt="anq-finance" style={styles.imageSize}/>
